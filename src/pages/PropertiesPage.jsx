@@ -11,6 +11,7 @@ export const PropertiesPage = withAuthentication(() => {
     <>
       <Header></Header>
       <h1>Properties for Sale</h1>
+
       <div className={classes.subheaderproperties}>
         <p>
           Welcome to the luxurious selection of properties curated by Indigo

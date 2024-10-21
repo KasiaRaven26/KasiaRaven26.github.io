@@ -41,8 +41,7 @@ input[type="email"] {
 .contactSection {
   display: flex;
   flex-direction: column;
-  letter-spacing: 0.08em;
-  gap: 4vh;
+  gap: 5vh;
 }
 .contactHeader {
   display: flex;
@@ -57,7 +56,6 @@ input[type="email"] {
 }
 .letsTalk {
   display: flex;
-
   justify-content: space-evenly;
 }
 .section1 {

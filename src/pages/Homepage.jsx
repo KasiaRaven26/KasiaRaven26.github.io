@@ -14,7 +14,7 @@ export function Homepage() {
         <div className="hero">
           <Header className={classes.header} />
           <div className="hero-contents">
-            <ScrollAnimation delay={600} animateIn="fadeIn">
+            <ScrollAnimation delay={600} animateIn="fadeIn" animateOnce="true">
               <Overlay />
             </ScrollAnimation>
           </div>
@@ -28,7 +28,7 @@ export function Homepage() {
           alt=""
         />
 
-        <ScrollAnimation delay={500} animateIn="fadeIn">
+        <ScrollAnimation delay={500} animateIn="fadeIn" animateOnce="true">
           <div className={classes.paragraphRight}>
             <h1>WHAT WE OFFER</h1>
             <div className={classes.links}>
@@ -63,7 +63,7 @@ export function Homepage() {
       </section>
 
       <section id="section-2">
-        <ScrollAnimation delay={500} animateIn="fadeIn">
+        <ScrollAnimation delay={500} animateIn="fadeIn" animateOnce="true">
           <div className={classes.paragraphLeft}>
             <div className={classes.links}>
               <a
@@ -101,7 +101,7 @@ export function Homepage() {
         />
       </section>
       <div>
-        <ScrollAnimation delay={500} animateIn="fadeIn">
+        <ScrollAnimation delay={500} animateIn="fadeIn" animateOnce="true">
           <h1 className={classes.headerHome}>
             YOUR GATEWAY TO SUCCESSFUL REAL ESTATE INVESTMENTS IN GREECE
           </h1>
